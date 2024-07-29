@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input type="text" placeholder="Buscar por N° Documento" class="search">
+            <button class="filter">Filtrar</button>
+        </div>
+        <div class="totals">
+            <div class="total-box">
+                <p>S/. 78,883.92</p>
+                <span>Total por pagar</span>
+            </div>
+            <div class="total-box">
+                <p>$ 5,595.23</p>
+                <span>Total por pagar</span>
+            </div>
+            <div class="total-box">
+                <p>3</p>
+                <span>Cuentas pendientes</span>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Documento</th>
+                    <th>Número</th>
+                    <th>F.Emisión</th>
+                    <th>Moneda</th>
+                    <th>Importe Total</th>
+                    <th>Detracción</th>
+                    <th>Pago Neto</th>
+                    <th>Saldo Pendiente</th>
+                    <th>Días Vcto.</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>F</td>
+                    <td>F001-13028</td>
+                    <td>19/06/2023</td>
+                    <td>SOLES</td>
+                    <td>188,786.78</td>
+                    <td>22,654.41</td>
+                    <td>166,132.37</td>
+                    <td>22,654.41</td>
+                    <td>67</td>
+                    <td>Por pagar</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>F001-13026</td>
+                    <td>19/06/2023</td>
+                    <td>SOLES</td>
+                    <td>63,897.17</td>
+                    <td>7,667.66</td>
+                    <td>56,229.51</td>
+                    <td>56,229.51</td>
+                    <td>67</td>
+                    <td>Por pagar</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>F001-12959</td>
+                    <td>19/06/2023</td>
+                    <td>DOLARES</td>
+                    <td>6,358.22</td>
+                    <td>762.99</td>
+                    <td>5,595.23</td>
+                    <td>5,595.23</td>
+                    <td>67</td>
+                    <td>Por pagar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
